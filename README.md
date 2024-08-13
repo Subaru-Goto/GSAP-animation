@@ -33,5 +33,8 @@ A Timeline is a container for mltiple tweens.
   animation.timeScale() // set time or get play speed, timeScale(2) is 2x as fast
   - animation.reversed() // set time or get reverse state
 
+- callback function
+  - onComplete: () => {} // triggers when an animation completes
+
 
 
