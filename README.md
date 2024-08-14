@@ -35,6 +35,32 @@ A Timeline is a container for mltiple tweens.
 
 - callback function
   - onComplete: () => {} // triggers when an animation completes
+  - with params: gsap.to(el, { onComplete: onCompleteFunc, onCompleteParams: [param1, param2.....]})
+  - function onComplete() { console.log(this.targets()[0])}; to get an element info, callback is scope to the tween
+  - scope can be changed by callbackScope
+    ```javascript
+    class Fred {
+      constructor() {
+        this.animation = gsap.to(".fred", { ..., onComplete: onComplete, callbackScope: this });
+        this.message = "I am fred"
+
+        function onComplete() {
+          console.log(this.message);
+        }
+      }
+    }
+
+    const f = new Fred();
+
+    // this becomes from tween to Fred class which enable us to access to all the property the class has.
+    ```
+  - many more callbacks:  onRepeat, onReverseComplete, onStart, onUpdate
+
+
+-
+
+
+
 
 
 
