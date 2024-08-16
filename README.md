@@ -57,7 +57,9 @@ A Timeline is a container for mltiple tweens.
   - many more callbacks:  onRepeat, onReverseComplete, onStart, onUpdate
 
 
--
+- 3D effect
+  - rotation & setting perspective value to wrapper or container will make it 3D animation effect
+  - transformOrigin to change the center & you can also add transformOrigin: "50% 50%, -400" z value for making space from the center for example.
 
 
 
