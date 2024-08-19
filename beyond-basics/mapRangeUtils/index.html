@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MapRange</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Move Mouse (desktop only)</h1>
+  <div id="demo">
+    <div class="line"></div>
+    <div class="box">
+      <svg  viewBox="0 0 16 16">
+        <path d="M14.13 9.11h-12l6-7 6 7z"/>
+        <path d="M6.12 8h4v6h-4z"/>
+      </svg>
+    </div>
+  </div>
+  <p>mouseX <span class="output" id="mouseX"></span><p>
+  <p>mouseY <span class="output" id="mouseY"></span><p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <script  src="./app.js"></script>
+</body>
+</html>

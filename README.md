@@ -58,9 +58,18 @@ A Timeline is a container for mltiple tweens.
 
 
 - 3D effect
-  - rotation & setting perspective value to wrapper or container will make it 3D animation effect
+  - rotationY & X & setting perspective value to wrapper or container will make it 3D animation effect
   - transformOrigin to change the center & you can also add transformOrigin: "50% 50%, -400" z value for making space from the center for example.
 
+- immediateRender
+  - from and fromTo has "immediateRender" set to true by defautl.
+  - It means that the from properties are rendered immediately.
+  - It can be useful when you have multiple from or fromTo tweens on the same properties of the same element.
+
+- quickSetter
+  - gsap.quickSetter("element", "property")
+  - Provides a highly optimized way to repeatedly set a single property on an element.
+  - When you need to set the same property on an element frequently, such as in a loop or during an animation.
 
 
 
