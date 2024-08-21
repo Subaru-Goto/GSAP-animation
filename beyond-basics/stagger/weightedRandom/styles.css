@@ -1,0 +1,26 @@
+body {
+  overflow: hiden;
+
+  background: orange;
+}
+
+.alien {
+  position: absolute;
+  width: 109px;
+  height: 218px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/alien.png);
+}
+
+.yeti {
+  position: absolute;
+  width: 179px;
+  height: 286px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/yeti.png);
+}
+
+.crab {
+  position: absolute;
+  width: 182px;
+  height: 186px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/crab.png);
+}

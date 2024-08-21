@@ -1,0 +1,20 @@
+body {
+  background: #201;
+}
+
+
+.box {
+  width:50px;
+  height:50px;
+  display:inline-block;
+  background-color:#f06;
+  line-height:50px;
+  text-align:center;
+  font-size:25px;
+  font-family:sans-serif;
+  color:white;
+}
+
+.blue {
+  background:dodgerblue;
+}
