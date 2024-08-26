@@ -15,3 +15,35 @@ function init() {
 }
 
 init();
+
+
+/*
+let animation = gsap.timeline({repeat:20})
+let targets = document.querySelectorAll(".demo div")
+let numberOfTargets = targets.length
+
+let duration = 0.4 //change this
+let pause = 0.75 // change this
+
+let stagger = duration + pause
+let repeatDelay = (stagger * (numberOfTargets - 1)) + pause
+
+function init() {
+  gsap.set(".demo", {autoAlpha:1})
+  animation.from(targets, {y:80, duration:duration, opacity:0, stagger:{
+    each:stagger,
+    repeat:-1,
+    repeatDelay:repeatDelay
+  }})
+     .to(targets, {y:-80, duration:duration, opacity:0, stagger:{
+    each:stagger,
+    repeat:-1,
+    repeatDelay:repeatDelay
+  }}, stagger)
+}
+//click anywhere to pause
+window.addEventListener("click", () => animation.paused(!animation.paused()))
+init()
+
+
+*/
