@@ -71,6 +71,9 @@ A Timeline is a container for mltiple tweens.
   - Provides a highly optimized way to repeatedly set a single property on an element.
   - When you need to set the same property on an element frequently, such as in a loop or during an animation.
 
+- scrub / scrollTrigger
+  - enable use to control the progress of animation by scrolling
+
 
 
 
